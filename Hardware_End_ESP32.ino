@@ -6,12 +6,12 @@
 #include "CA.h"
 
 //---- WiFi settings
-const char* ssid = "J.A.R.V.I.S";
-const char* password = "imaginedragonEP";
+const char* ssid = "SSID";
+const char* password = "wifi PASS";
 //---- MQTT Broker settings
-const char* mqtt_server = "725ac3fd70324e28bda1d0df128fdb5b.s1.eu.hivemq.cloud"; // replace with your broker url
-const char* mqtt_username = "esp_test";
-const char* mqtt_password = "esp_test";
+const char* mqtt_server = "xxxxxxxxxxx.hivemq.cloud"; // replace with your broker url
+const char* mqtt_username = "usr_nam";
+const char* mqtt_password = "usr_pass";
 const int mqtt_port = 8883;
 
 WiFiClientSecure espClient;
