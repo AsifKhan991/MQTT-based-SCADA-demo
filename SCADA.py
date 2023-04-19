@@ -9,9 +9,9 @@ auto=False
 Fan=False
 Thresh=50
 
-broker_address = "725ac3fd70324e28bda1d0df128fdb5b.s1.eu.hivemq.cloud"
-username = "SCADA"
-password = "esp_test"
+broker_address = "xxxxxx.xxxxxx.hivemq.cloud" #your broker url
+username = "usr_nam"
+password = "usr_pass"
 
 def on_connect(client, userdata, flags, rc,properties=None):
     print("Connected with result code "+str(rc))
